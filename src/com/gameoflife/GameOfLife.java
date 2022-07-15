@@ -5,12 +5,13 @@ import java.util.List;
 
 public class GameOfLife {
 
-    private int size = 10;
-    private final boolean[][] matrix = new boolean[size][size];
+    private int size;
+    private final boolean[][] matrix;
 
 
     public GameOfLife(int size) {
         this.size = size;
+        this.matrix = new boolean[size][size];
     }
 
     public boolean[][] getMatrix() {
