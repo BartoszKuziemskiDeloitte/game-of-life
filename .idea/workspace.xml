@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3594fe8b-c0c1-41be-80db-4f7df36de303" name="Changes" comment="">
+    <list default="true" id="3594fe8b-c0c1-41be-80db-4f7df36de303" name="Changes" comment="Zasady gry spełnione i ilość dekad dodana">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gameoflife/GameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gameoflife/GameOfLife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gameoflife/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gameoflife/Main.java" afterDir="false" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,8 +69,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657804310967</updated>
-      <workItem from="1657886835842" duration="2352000" />
+      <workItem from="1657886835842" duration="9691000" />
     </task>
+    <task id="LOCAL-00001" summary="Pobieranie współrzędnych i ilości żywych komórek od użytkownika">
+      <created>1657889491836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657889491836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +94,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pobieranie współrzędnych i ilości żywych komórek od użytkownika" />
+    <MESSAGE value="Zasady gry spełnione i ilość dekad dodana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zasady gry spełnione i ilość dekad dodana" />
   </component>
 </project>

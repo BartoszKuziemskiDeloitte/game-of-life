@@ -10,20 +10,23 @@ public class Main {
         int userChoice = Integer.parseInt(in.nextLine());
         switch (userChoice) {
             case 1 -> {
-                System.out.println("Ile komórek zywych chcesz wprowadzic? Wymiar tablicy to 10 x 10.");
+                System.out.println("Ile komorek zywych chcesz wprowadzic? Wymiar tablicy to 10 x 10.");
                 Scanner cell = new Scanner(System.in);
                 int numberOfCells = Integer.parseInt(cell.nextLine());
+                int [][] coords = new int[numberOfCells][2];
+                Scanner scanner = new Scanner(System.in);
+                int x, y;
                 for (int i=0; i < numberOfCells; i++){
                     int numOfThisCell = i + 1;
-                    System.out.println("Komórka numer: "+ numOfThisCell);
+                    System.out.println("Komorka numer: "+ numOfThisCell);
                     System.out.println("Podaj prosze wspolrzeda X komorki.");
-                    Scanner firstCellX = new Scanner(System.in);
-                    int x = Integer.parseInt(firstCellX.nextLine());
+                    x = Integer.parseInt(scanner.nextLine());
                     System.out.println("Podaj prosze wspolrzeda Y komorki.");
-                    Scanner firstCellY = new Scanner(System.in);
-                    int y = Integer.parseInt(firstCellY.nextLine());
-                    Simulation.start(x, y);
+                    y = Integer.parseInt(scanner.nextLine());
+                    coords[i][0] = x;
+                    coords[i][1] = y;
                 }
+                Simulation.start(coords);
                 break;
             }
             case 2 -> {
