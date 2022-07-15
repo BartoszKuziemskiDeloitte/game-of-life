@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3594fe8b-c0c1-41be-80db-4f7df36de303" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game-of-life.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gameoflife/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gameoflife/GameOfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gameoflife/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gameoflife/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gameoflife/GameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gameoflife/GameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gameoflife/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gameoflife/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gameoflife/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gameoflife/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +37,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jcicha/IdeaProjects/game-of-life"
   }
 }]]></component>
   <component name="RunManager">
@@ -69,8 +64,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657804310967</updated>
+      <workItem from="1657886835842" duration="2352000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -82,17 +81,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="i == 98" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/com/gameoflife/GameOfLife.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

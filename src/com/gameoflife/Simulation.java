@@ -3,14 +3,11 @@ package com.gameoflife;
 public class Simulation {
 
     private static GameOfLife game = new GameOfLife(10);
-    public static void start() {
+    public static void start(int x, int y) {
         game.initCells();
-        game.setLiveCell(0, 0);
-        game.setLiveCell(1, 0);
-        game.setLiveCell(1,1);
-        game.setLiveCell(2,1);
-        game.printMatrix();
+        game.setLiveCell(x, y);
         simulate();
+        game.printMatrix();
     }
 
     private static void simulate() {

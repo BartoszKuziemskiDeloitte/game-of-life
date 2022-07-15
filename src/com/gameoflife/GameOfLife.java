@@ -27,9 +27,9 @@ public class GameOfLife {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 if (matrix[i][j]) {
-                    System.out.print("x");
+                    System.out.print(" x ");
                 } else {
-                    System.out.print(" ");
+                    System.out.print(" o ");
                 }
             }
             System.out.println();
