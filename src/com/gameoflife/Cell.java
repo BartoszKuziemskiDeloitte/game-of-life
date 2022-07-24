@@ -44,7 +44,7 @@ public class Cell {
         if (diffX <= 1 && diffY <= 1 && cell.live) {
             increaseNeighbors();
         }
-        if (diffX <= 1 && diffY <=1 && this.live) {
+        if (diffX <= 1 && diffY <= 1 && this.live) {
             cell.increaseNeighbors();
         }
     }
